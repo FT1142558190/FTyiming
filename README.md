@@ -1,291 +1,118 @@
 <div align="center">
-    <h1>超星学习通答题姬</h1>
-    <h2>CxKitty</h2>
-    <img alt="Github Stars" src="https://img.shields.io/github/stars/SocialSisterYi/CxKitty">
-    <img alt="Github Forks" src="https://img.shields.io/github/forks/SocialSisterYi/CxKitty">
-    <img alt="Github License" src="https://img.shields.io/github/license/SocialSisterYi/CxKitty">
-    <img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg">
-    <img alt="Image Size" src="https://img.shields.io/docker/image-size/socialsisteryi/cx-kitty">
+    <h1>好好学习 天天向上</h1>
+    <h2>FTyiming</h2>
 </div>
 
-本项目旨在研究学习爬虫技术和网络接口编程技术，同时致力于以开源方式抵制并消灭各种付费“刷课平台”和“黑产”
+## **学习计划**
 
-<span style="color: red"><b>Ps: 本项目不提供任何题库资源，有相关测试需求者请按照文档自行解决。本项目仅供学习参考使用，请在下载部署后 24 小时内删除，由于使用本项目不当所造成的挂科或不良学习记录作者一概不负责。</b></span>
+1. 宿舍空调
 
-## ✨Features
+   ```apache
+   压缩机功耗大
+   -压缩机 高压管 低压管 毛细管 蒸发器 制冷剂
+   吸收式制冷体积大
+   -溴化
+   电子控制模块 wifi模块 或者蓝牙模块已经非常成熟
+   ```
 
-### Supports
+2. 家用太阳能发电系统搭建
 
-- 会话管理
-  - ✅支持手机号+密码登录、二维码登录，可以自动 / 手动重登账号
-  - ✅内置多账号管理器，自动存取账号信息，自动判断会话 ck 有效性，以 json 格式存档在本地
-- 交互
-  - ✅以 Terminal-UI 方式进行人机交互，展示工作流程、章节任务点状态，输出详细信息到 log 文件，作为一个理工男，不觉得很酷吗？
-  - ✅批量选择课程（使用序号 / courseId / 课程名）
-- 协议实现
-  - ✅使用 [requests](https://github.com/psf/requests) 及 [bs4](https://www.crummy.com/software/BeautifulSoup/) 分别进行协议模拟和 HTML 解析，故无需浏览器，更无需油猴脚本
-  - ✅无惧接口风控，基于 [OpenCV](https://github.com/opencv/opencv) 与 [ddddocr](https://github.com/sml2h3/ddddocr) 对验证码进行识别，进而解除风控状态
-  - ✅接口请求自动 retry 支持，针对网络环境不佳以及使用移动流量的场景优化
-- 任务点
-  - ✅视频课程任务点模拟播放（无需消耗流量播放流媒体内容）
-  - ✅文档任务点模拟浏览（如 word ppt pdf 等）
-- 考试及测验
-  - ✅章节测验任务点自动答题，支持单选题、多选题、填空题、判断题，试题未完成可临时保存
-  - ✅课程考试自动答题，支持单选题、多选题、填空题、判断题（考试模式、使用手机客户端协议）
-  - ✅遇到匹配失败的题，可使用 fuzzer 方式填充答案并提交（默认关闭）
-  - ✅章节测验试题 / 课程考试可完整导出，信息全、无加密无乱码，可导出临时保存的答案，现支持 json 格式
-  - ✅自动答题功能需要至少一种的 **题库后端** 支持，现支持`REST API`、`JSON`、`SQLite`三种类型的 **题库后端**，同时已接入`Enncy`、`网课小工具（Go题）`两种第三方题库，可并行搜索，择优匹配答案（建议使用自建题库）
-  - ✅`REST API`类型 **题库后端** （用户接口）支持使用 [JsonPath](https://goessner.net/articles/JsonPath/) 语法进行答案字段提取，允许用户注入 HTTP header 和 params 依赖字段
-  - ✅日志中将记录未完成的题目，并自动导出未完成的题目到 json
+   ```apache
+   材料成本高
+   -太阳能发电板 面积未知
+   -逆变器 整流桥 PN节 空气开关 各种电路保护 不会
+   -户外电源 至少20Ah  2000多块
+   -能否并网把电卖给公网
+   理论上不可能回本，所以只能是玩玩
+   材料全是二手只要600(无户外电源)
+   ```
+3. 家用私人网盘成本高
 
-### TODO
+   ```apache
+   市面上成熟的产品，绿联的NAS，一台电脑就可以的黑群晖，但是基本的计算机网络通信原理不会。
+           理想功能
+              1.功耗低，可以有很多sata硬盘接口
+              2.只要在同一局域网内就可以实现联通，上传和下载的速率只被路由器限制
+              3.什么是他妈的的单片机 树莓派 什么是他妈的ios windows 安卓 liuxs
+              4.dockers这种轻量化的虚拟环境如何完成自动化任务  比如 阿里云盘签到 如何完成多线程高并发的自动化任务
+              5.公网ip到底怎么用，怎么申请
+   ```
+4. 在这种家庭宽带下，公用的IP地址能否保证网络安全
+5. 数学建模？
 
-以下特性有可能逐渐被添加
+   ```apache
+   重要吗，很重要吗
+   ```
+6. comsol 基础不牢学不了一点
+7. 漫长的电子模块学习，数电，模电。👀️ 积累维修经验
+8. 漫长代码学习，完善网站，学习新的功能
 
-- ❌短信验证码登录、学号登录
-- ❌直播任务点、文章阅读任务点
-- ❌简答题、论述题等题型支持
-- ❌富文本答题
-- ❌使用 Gotify 或 MQTT 上报任务进度以及完成情况
-- ❌使用 args 直接传参登录账号以及选课
-- ❌导出已批阅的章节测验
-- ❌试题自动等待交卷
+## 😕 放弃
 
-### BUGS
+~~安卓逆向，手机这个东西用不习惯太封闭了，不如研究研究树莓派 单片机~~
 
-- ⭕获取任务点状态会出现 `0/0`的情况 (即使任务点存在未做)
-- ⭕对于选项为图片的题目无法匹配
+~~我与英语不共戴天之仇~~
+
+
+
 
 ## ❤️Contributing Guide
 
 若发现程序存在任何 bug 或有好的想法，欢迎提交 Issue，提交 bug 反馈时需要带上报错信息截图（截全）以及对应 log 文件，并说明触发条件
 
-如果有能力一同开发项目，欢迎使用 [PR](https://github.com/SocialSisterYi/CxKitty/pulls) 提交代码（注意合并 Origin 和修改内容
-
-提交 Issue 时应当遵守 **[提问的智慧](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md)** 以及[别像弱智一样提问](https://github.com/tangx/Stop-Ask-Questions-The-Stupid-Ways)，切勿以`不懂`、`萌新问个问题`、`小白啥也不会浇浇`、`整个xxx呗`作为标题，否则一律忽略
+提交 Issue 时应当遵守 **[提问的智慧](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md)** 以及[别像弱智一样提问](https://github.com/tangx/Stop-Ask-Questions-The-Stupid-Ways)，切勿以 `不懂`、`萌新问个问题`、`小白啥也不会浇浇`、`整个xxx呗`作为标题，否则一律忽略
 
 [Issue](https://github.com/SocialSisterYi/CxKitty/issues) 为本项目的唯一反馈渠道，任何包括不限于在 QQ、B站私信、Telegram、微信 的提问一律忽略
 
-## 🧩Typographical
-
-![](imgs/typo.png)
-
-## 🚀Build
-
-### 💻本地化构建项目
-
-使用 Python 版本 >= 3.10.0
-
-clone 项目到本地，并使用 poetry 安装依赖和管理 venv
-
-```bash
-git clone 'https://github.com/SocialSisterYi/CxKitty'
-cd CxKitty
-poetry install
-```
-
-运行主程序
-
-```bash
-poetry run python3 main.py
-```
-
-### 🐋使用  Docker  构建项目
-
-从 DockerHub 拉取最新镜像
-
-```bash
-docker pull socialsisteryi/cx-kitty
-```
-
-~~或手动构建镜像~~
-
-<details>
-<summary>展开</summary>
-
-clone 项目到本地，并开始构建镜像
-
-```bash
-git clone 'https://github.com/SocialSisterYi/CxKitty'
-cd CxKitty
-docker build --tag socialsisteryi/cx-kitty .
-```
-
-</details>
-
-运行容器
-
-请按实际情况映射以下容器内路径：
-
-`/app/session`会话存档目录
-
-`/app/logs`程序日志目录
-
-`/app/export`试题导出目录 (根据配置文件修改，**如不需要可不映射**)
-
-`/app/config.yml`程序配置文件
-
-`/app/questions.json`json题库 (根据配置文件修改，**如不需要可不映射**)
-
-`/app/questions.db`sqlite题库 (根据配置文件修改，**如不需要可不映射**)
-
-由于程序使用 TUI，Docker 的日志服务会自动捕获并保存容器的 stdo，所以建议使用参数`--log-opt max-size=xx`限制容器的日志大小，以免造成过多的磁盘占用
-
-```bash
-docker run -it \
-  --name cx_kitty \
-  -v "$PWD/session:/app/session"  \
-  -v "$PWD/export:/app/export" \
-  -v "$PWD/logs:/app/logs" \
-  -v "$PWD/config.yml:/app/config.yml" \
-  #-v "$PWD/questions.json:/app/questions.json" \
-  #-v "$PWD/questions.db:/app/questions.db" \
-  --log-opt max-size=10m \
-  socialsisteryi/cx-kitty
-```
-### ▶️使用 可执行文件 (Windows/Linux/MacOS) (测试版)
-
-从[Action](https://github.com/SocialSisterYi/CxKitty/actions/workflows/package-exe.yml)中获取最新的自动构建文件,解压后执行文件
-
-<details>
-<summary>详细步骤</summary>
-
-
-点击[Action](https://github.com/SocialSisterYi/CxKitty/actions/workflows/package-exe.yml)
-
-右侧点击`绿色的` `最上面`的名为`Package Executable`
-
-跳转后拖到最底下
-
-选择你自己的系统,点一下就会下载
-
-解压出来后,先配置配置文件,然后执行文件就可以正常启动了
- 
-</details>
-
-## 🔨Configuration
-
-### 主程序配置
-
-配置文件使用 Yaml 语法编写，存放于 [config.yml](config.yml)
-
-请根据注释修改配置内容
-
-### 题库配置
-
-单选题问题与答案应当一一对应，多选题使用`#`或`;`分隔每个选项，判断题答案只能为`对`、`错`、`正确`、`错误`、`√`、`×`
-
-REST API 搜题接口配置，确保接口`searcher->restApiSearcher->url`可以正确访问访问（若使用 Docker 搭建，而题库 API 服务在宿主机运行，应使用宿主机虚拟网关 IP 地址而不是本地回环地址）
-
-返回值必须为 JSON 格式，使用`rsp_field`字段作为选择器传入，使用 [JsonPath](https://goessner.net/articles/JsonPath/) 语法编写，如`$.data`或`$.data.answer[*]`等
-
-eg：
-
-```bash
-curl 'http://127.0.0.1:88/v1/cx' \
-  --data-urlencode 'question=国字的演变的过程告诉我们,国防就是国家的防务,国防与()是密不可分的'  #  这里`question`为请求字段名
-```
-
-```js
-{
-    "code": 1,
-    "question": "国字的演变的过程告诉我们,国防就是国家的防务,国防与()是密不可分的",
-    "data": "国家",  // 这里的`data`为响应字段名
-    "hit": true
-}
-```
-
-JSON 题库，确保`searcher->jsonFileSearcher->file_path`可以访问（使用 Docker 需要设置映射），key 为题目，value 为与之对应的答案
-
-eg：
-
-```json
-{
-  "国字的演变的过程告诉我们,国防就是国家的防务,国防与()是密不可分的": "国家"
-}
-```
-
-SQLite 题库，确保`searcher->sqliteSearcher->file_path`可以访问（使用 Docker 需要设置映射），表中应存在配置的请求和响应字段
-
-eg：
-
-```sql
-SELECT answer FROM questions WHERE question = '国字的演变的过程告诉我们,国防就是国家的防务,国防与()是密不可分的';
-```
-
-```
-国家
-```
-
-Enncy 题库，使用前请注册并获取 Token 填写在配置文件中（第三方题库）
-
-通过此 [链接](https://tk.enncy.cn/) 获取 Token
-
-网课小工具（Go题）题库，使用前请注册并获取 Token 填写在配置文件中（第三方题库）
-
-获取 Token 方式见 [文档](https://cx.icodef.com/1-UserGuide/1-6-gettoken.html#%E8%8E%B7%E5%8F%96token)
-
-## 📖Usage & Demo
-
-**注：本项目并非小白向“开箱即用”类型，需要一定的专业技术能力；如需使用自动答题功能，请确保您拥有准确无误的题库资源**
-
-当配置文件和题库资源无误后，运行主程序，进行选择会话存档，若少于一个会话存档，则直接进入登录界面
-
-登录界面输入手机号后按回车键输入密码，再按回车键进行登录
-
-登录界面直接按下回车键则会显示二维码，使用学习通手机客户端扫描登录
-
-![](imgs/demo1.png)
-
-按照提示选择目标课程，多个课程之间使用`,`分隔，使用**课程选择器语法**，如下：
-
-- 课程序号：`0`、`1`、`2`
-- 课程序号范围：`0-3`、`5-10`
-- 课程名：`"解析几何"`、`"马克思主义"`（非重复项可省略后半部分）
-- 课程 courseId：`#23026xxx`、`#22928xx`
-
-![](imgs/demo2.png)
-
-程序会自动完成视频及测验任务点，并展示章节任务点情况
-
-![](imgs/demo3.png)
-
-如需要完成课程`0`、课程`1-3`、课程`解析几何`则输入：`0,1-3,"解析几何"`
-
-如需进入**考试模式**，那么需要在指定课程（使用**课程选择器语法**）前输入`EXAM|`，即可进入二级菜单，如：
-
-`EXAM|0`、`EXAM|"解析几何"`等
-
-若配置文件的`exam->confirm_submit`为`true`那么在交卷前会提示确认，否则将自动交卷
-
-![](imgs/demo4.png)
-
-## 💡About Repo Name
-
-项目的中文名`超星学习通答题姬`早已确定，英文名想到过`CxHime`、`CxExamHime`、`CxCourseHime`然而都非常拗口，故弃用
-
-又想到`CxHelper`这个名，但`helper`一词易使人联想到木马病毒可执行程序的文件名，很不吉利
-
-最后由`CxKit`衍生出`CxKitty`这个名，一语双关`kitty`自有“猫娘”含义，~~同时由于项目首字母缩写是`cxk`，亦可解释为`答题只因`~~
-
-## ⚠️Disclaimers
+## 🤡Disclaimers
 
 - 本项目以 [GPL-3.0 License](https://github.com/SocialSisterYi/CxKitty/blob/main/LICENSE) 作为开源协议，这意味着你需要遵守相应的规则
 - 本项目仅适用于**学习研究**，任何人不得以此用于**盈利**
 - 使用本项目造成的任何后果与本人无关
 
-## 🔗Link Repos
+免责申明
+请注意以下条款和条件，以规避您的风险和损失。如果您不同意本声明，请立即离开本网站。如果您继续访问和使用本网站，则表示您已经阅读、理解并同意接受本声明的所有条款和条件。
 
-[Samueli924/chaoxing: 超星学习通/超星尔雅/泛雅超星全自动无人值守完成任务点 (github.com)](https://github.com/Samueli924/chaoxing)
+1. 本网站所提供的任何内容和服务仅供用户个人学习、研究和测试之用，不得作为商业用途。本网站的所有信息未来可能会随时更新和更改，不保证其准确性、完整性.及时性、适用性、稳定性和可靠性 ；
+2. 不得利用本服务故意或者过失的从事危害国家安全和社会公共利益、扰乱经济秩序和社会秩序、侵犯他人合法权益等法律、行政法规禁止的活动，请勿输入、生成并发布、输出、传播涉及国家法律法规禁止以下内容：
 
-[RainySY/chaoxing-xuexitong-autoflush: 超星学习通全自动无人值守视频刷课程序，使用协议发包来实现。 (github.com)](https://github.com/RainySY/chaoxing-xuexitong-autoflush)
+* 危害国家安全，泄露国家秘密，颠覆国家政权，破坏国家统一的；
+* 损害国家荣誉和利益的；
+* 歪曲、丑化、亵渎、否定英雄烈士事迹和精神，以侮辱、诽谤或者其他方式侵害英雄烈士的姓名、肖像、名誉、荣誉的；
+* 宣扬恐怖主义、极端主义或者煽动实施恐怖活动、极端主义活动的；
+* 煽动民族仇恨、民族歧视，破坏民族团结的；
+* 破坏国家宗教政策，宣扬邪教和封建迷信的；
+* 散布谣言，扰乱经济秩序和社会秩序的；
+* 散布淫秽、色情、赌博、暴力、凶杀、恐怖或者教唆犯罪的；
+* 侮辱或者诽谤他人，侵害他人名誉、隐私和其他合法权益的；
+* 含有虚假、有害、胁迫、侵害他人隐私、骚扰、侵害、中伤、粗俗、猥亵、或其它道德上令人反感的内容；
+* 中国法律、法规、规章、条例以及任何具有法律效力之规范所限制或禁止的其它内容。
 
-[lyj0309/chaoxing-xuexitong-autoflush: 超星学习通全自动无人值守刷课程序，使用协议发包来实现，无需浏览器，支持自动过测验、过视频。 (github.com)](https://github.com/lyj0309/chaoxing-xuexitong-autoflush)
+3. 您同意并承诺，在使用本服务时，严格遵守国家及行业相关法律法规要求，不上传国家及金融行业涉密文件及数据、不上传非公开的资料及数据、客户资料、支付清算基础设施或系统的核心代码等内容，不会输入个人隐私信息；
+4. 为最大限度限制敏感内容，并保证服务持续，我们会对敏感内容做过滤或删除处理，不能保证回复的完整性，同时会记录您的IP，如发现违法使用，本站将全力配合有关部门予以打击。
+5. 为保护您的个人隐私，您的个人数据，全部保存在您的个人设备中，更换浏览器和清理浏览器缓存，都会导致历史提问数据一并被清理，如有重要信息，请及时做好备份。
+6. 您确认并知悉本服务生成的所有内容都是由人工智能模型生成，所以可能会出现意外和错误的情况，请确保检查事实，并且其生成的内容不代表我们的态度或观点，仅为提供更多信息，也不构成任何建议或承诺。对于您根据本服务提供的信息所做出的一切行为，除非另有明确的书面承诺文件，否则我们不承担任何形式的责任。
+7. 不论在何种情况下，本网站均不对由于网络连接故障，电力故障，罢工，劳动争议，暴乱，起义，骚乱，火灾，洪水，风暴，爆炸，不可抗力，战争，政府行为，国际、国内法院的命令，黑客攻击，互联网病毒，网络运营商技术调整，政府临时管制或任何其他不能合理控制的原因而造成的本服务不能访问、服务中断、信息及数据的延误、停滞或错误，不能提供或延迟提供服务而承担责任。
+   本网站不承担您就使用本服务所提供的信息或任何链接所引致的任何直接、间接、附带、从属、特殊、继发、惩罚性或惩戒性的损害赔偿。
 
-[chettoy/FxxkStar: API and unofficial client for the SuperStar mooc platform | 超星学习通的API和非官方客户端脚本，为学生提供更好的学习体验 (github.com)](https://github.com/chettoy/FxxkStar)
+``` bash
+ ███████████ ███████████  █████████              ███                   ███
+ ░░███░░░░░░█░█░░░███░░░█ ███░░░░░░              ░░░                   ░░░
+ ░███   █ ░ ░   ░███  ░ ░███ ██████  █████ ████ ████  █████████████   ████  ████████    ███████
+ ░███████       ░███    ░███░███░███░░███ ░███ ░░███ ░░███░░███░░███ ░░███ ░░███░░███  ███░░███
+ ░███░░░█       ░███    ░███░███░███ ░███ ░███  ░███  ░███ ░███ ░███  ░███  ░███ ░███ ░███ ░███
+ ░███  ░        ░███    ░███░░░ ░███ ░███ ░███  ░███  ░███ ░███ ░███  ░███  ░███ ░███ ░███ ░███
+ █████          █████   ░░█████████  ░░███████  █████ █████░███ █████ █████ ████ █████░░███████
+░░░░░          ░░░░░     ░░░░░░░░░    ░░░░░███ ░░░░░ ░░░░░ ░░░ ░░░░░ ░░░░░ ░░░░ ░░░░░  ░░░░░███
+                                      ███ ░███                                         ███ ░███
+                                      ░░██████                                         ░░██████
+                                        ░░░░░░                                           ░░░░░░
+```
 
-[ocsjs/ocsjs: OCS 网课助手，网课脚本，帮助大学生解决网课难题 ，目前支持网课：超星学习通，知道智慧树 ， 支持脚本猫以及油猴脚本运行。 (github.com)](https://github.com/ocsjs/ocsjs)
+＋v FTyiming 有其他问题请联系作者欢迎一起交流讨论Q群~~457452029~~
+本文件仅供交流学习讨论，作者一切免责。请在24小时内删除，如有侵权请联系作者
+声明：仅供内部学习交流，不保证能否正常运行，请勿用于正常教师课程，由此造成的任何后果，
+包括但不限于清空学习记录、取消学习资格、学习成绩不及格、全校通报、取消学籍、行政处罚、刑事诉讼等，
+由使用者负责，作者不支持也不鼓励用于网络技术学习以外的其他用途，继续使用视为使用者同意此声明。
 
-[SocialSisterYi/xuexiaoyi-to-xuexitong-tampermonkey-proxy: 基于“学小易”搜题API的学习通答题/考试油猴脚本题库代理 (github.com)](https://github.com/SocialSisterYi/xuexiaoyi-to-xuexitong-tampermonkey-proxy)
-
-[CodFrm/cxmooc-tools: 一个 超星(学习通)/智慧树(知到)/中国大学mooc 学习工具,火狐,谷歌,油猴支持.全自动任务,视频倍速秒过,作业考试题库,验证码自动打码(੧ᐛ੭挂科模式,启动) (github.com)](https://github.com/CodFrm/cxmooc-tools)
+附: 二○○二年一月一日《计算机软件保护条例》第十七条规定：为了学习和研究软件内含的设计思想和原理，通过安装、显示、传输或者存储软件等方式使用软件的，可以不经软件著作权人许可，不向其支付报酬！鉴于此，也希望大家按此说明研究软件
